@@ -15,9 +15,6 @@ public class Path : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log (transform.childCount);
-		//nodes = this.GetComponentsInChildren<Transform>();
-
 		currentNode = 0;
 	}
 	
