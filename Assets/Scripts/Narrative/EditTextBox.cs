@@ -35,16 +35,20 @@ public class EditTextBox : MonoBehaviour {
 		rightChar = GameObject.Find ("RightCharacter").GetComponent<Image> ();
 		leftChar = GameObject.Find ("LeftCharacter").GetComponent<Image> ();
 
-		//Retrieves the text from the act's text fileand splits it by line into an array
-		if (act_zero_file != null) {
-			act_zero_lines = act_zero_file.text.Split ('\n');
-		}
+        //Retrieves the text from the act's text fileand splits it by line into an array
+        if (act_zero_file != null)
+        {
+            act_zero_lines = act_zero_file.text.Split('\n');
+        }
+        else {
+            Debug.Log("Text Null");
+        }
 
 		//Set the endline to the length of the act's lenght
 		endline = act_zero_lines.Length;
 	}
 
-	void Update(){
+	void Update() {
 
 		text = act_zero_lines [currentLine];
 
