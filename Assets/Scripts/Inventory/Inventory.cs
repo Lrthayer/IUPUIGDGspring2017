@@ -32,21 +32,22 @@ public class Inventory : MonoBehaviour {
 		database = GetComponent<ItemDatabase>();
 
 		inventoryPanel = GameObject.Find("Inventory Panel");
-		slotPanel = inventoryPanel.transform.FindChild ("Slot Panel").gameObject;
+		slotPanel = inventoryPanel.transform.Find ("Slot Panel").gameObject;
 		for (int i = 0; i < invSlotAmount; i++) {
 			items.Add (new Item ());
 			invSlots.Add (Instantiate (inventorySlot));
 			invSlots [i].GetComponent<InventorySlot> ().slotId = i;
-			invSlots [i].transform.SetParent (slotPanel.transform);
+			invSlots [i].transform.SetParent (slotPanel.transform, false);
 		}
 
 		itemPanel = GameObject.Find("Item Panel");
-		itemSlotPanel = itemPanel.transform.FindChild ("Item Slot Panel").gameObject;
+		itemSlotPanel = itemPanel.transform.Find ("Item Slot Panel").gameObject;
 		for (int i = 0; i < itemSlotAmount; i++) {
 			items.Add (new Item ());
 			invSlots.Add (Instantiate (inventorySlot));
 			invSlots [i + invSlotAmount].GetComponent<InventorySlot> ().slotId = i+invSlotAmount;
-			invSlots [i + invSlotAmount].transform.SetParent (itemSlotPanel.transform);
+			invSlots [i + invSlotAmount].transform.SetParent (itemSlotPanel.transform, false);
+
 		}
 
 
@@ -58,11 +59,13 @@ public class Inventory : MonoBehaviour {
 		AddItem (5);
 
 		inventoryPanel.SetActive (false);
+		itemPanel.SetActive (false);
 	}
 
 	void Update(){
 		if (Input.GetKeyDown (KeyCode.I)) {
 			inventoryPanel.SetActive (!inventoryPanel.activeInHierarchy);
+			itemPanel.SetActive (!itemPanel.activeInHierarchy);
 			tooltip.Deactivate();
 		}
 	}
@@ -78,8 +81,8 @@ public class Inventory : MonoBehaviour {
 					itemObj.GetComponent<ItemData>().item = itemToAdd;
 					itemObj.GetComponent<ItemData> ().amount = 1;
 					itemObj.GetComponent<ItemData> ().slotNumber = i;
-					itemObj.transform.SetParent (invSlots [i].transform);
-					itemObj.transform.position = Vector2.zero;
+					itemObj.transform.SetParent (invSlots [i].transform, false);
+					itemObj.transform.position = invSlots [i].transform.position;
 					itemObj.GetComponent<Image> ().sprite = itemToAdd.Sprite;
 					itemObj.name = itemToAdd.Title;
 					break;

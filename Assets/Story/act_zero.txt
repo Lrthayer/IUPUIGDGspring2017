@@ -1,0 +1,73 @@
+Hi everyone, welcome to our EICB tour, aboard the Earth Interplanetary Cosmos Base. I am Amelia Gagnon and you're looking through the lens of our resident robo-naut, Recordo! 
+Sorry you can't see my face, but all us astronauts have to keep our suits on for the time being. We're all fine and well, it's just a time-consuming process we're going through. With all that, let's get started.
+So over here is our exercise station, used by our 3-time Olympic gold medalist, Jaxon Kelly!
+She keeps responding that everything is normal...How could the AI of the shuttle do that to the airlo-
+DAH!-Oh!-Hey-O! Amelia, Recordo, HE is working alright, yeah?
+Of course, my adorable robot pal is a-okay!
+Very funny, just remember he's my little baby Amelia!
+Oookay Jack!
+SCENECHANGE
+ZZZZZZzzzzzzz...
+There's Haru, Haru Soma. In his little hidey hole. Didn't have much adjusting to do.
+ZZZZZZ... NO EVIL CAN CONTROL OUR AI SYS....zzzzzzz... 
+Even in his suit he's got all the comfort he needs.
+ZZZZZZ... what-why supply vessel smash airlock...zzzz...
+SCENECHANGE
+There're living beings down there, do we know why they're not responding?
+Haven't a clue, distress messages are handled by the AI. Really the guys and gals should be handling
+-This is Niklas Vogel and miss Elvira Volkov. Niklas, can you tell the people watching what Elvira is doing?
+Uh... not the best time Amelia... Well, it's Just a normal radiation test. Her levels are bit higher than last time.
+But not higher than my plants. I made those babies invincible. By god I can assure you the rest of Chernobyl will be the new Château de Versailles.
+Ho oh. How I've needed someone with a bit of gusto like yourself. My own kids could learn a thing or two from you.
+Okay Amelia, you've got us on camera, leave us be.
+SCENECHANGE
+This is my station! I watch the stars and I get to see you guys the most! I keep star charts and follow-
+AMELIA! I need to run a recursive check on Recordo's AI!
+Oh god... Uh, Sorry! We'll cut this short and start up later today!
+SCENECHANGE
+We got some new items in the recent supply drop. Time for a test.
+Amelia, you know what you're doing right?
+Of course, we're showing off Recordo's decision making. I just ask a question like Recordo's human.
+Just don't let the snacks get too close to the circuitry!
+*Chuckle* It isn't playing with your food if you write down the results Jack.
+Jaxon, why are you giving her Recordo? You already know it works.
+I'm worried about Marl-
+-Someone get Haru.
+You're fastest Jack, you go.
+Fine…
+Haru are you ready?…
+Silence means yes, helmet boy!
+I got him!
+You wanted to make breakfast for the dear, yes?
+He pushes himself too hard, still snoozin'.
+So, we're going to make him breakfast! 
+Recordo: since we're making Haru cereal, should we pour out the flakes or the milk first?
+(A) FLAKES or (B) MILK
+DECISION(A)
+As you can see, Haru's breathing displaced the milk with air, covering his face with a bubble.\
+DECISION(B)
+With such little gravity, the pressure of simply tearing the bag caused the whole package to explode.
+SCENECHANGE
+Okay, so this is going to be my experiment?
+Power's out.
+I'm not a fan of this.
+...You two don't seem worried...
+Agreed! A power out is never normal! Something is a foot!
+We have more than enough oxygen to solve this ourselves. Recordo's still operating so we still have a signal back to earth.
+Now, now, is everyone feeling okay?
+We've got all we need to handle it!
+I'm fine, but what should we do first?
+Find source of the power-outage and contact Earth about the problem.
+Plus, stay calm, panic only leads to stupid decisions.
+Where are my babies!? I have to see if they reacted to this or not!
+I'll find what the source of the problem is, you can find me in Nod 2!
+I can't keep track of what's where without light!
+Just find your station, it's got windows-
+SCENECHANGE
+Those are the THRUSTERS!
+EVERYONE STICK TOGETHER!
+NONE OF THE PANELS HAVE ANY POWER! 
+WHAT'S DOING THIS!? 
+WE NEED TO BRACE FOR IMPACT!!!
+SCENECHANGE
+END_ACT_ZERO
